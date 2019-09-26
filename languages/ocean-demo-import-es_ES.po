@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Demo Import\n"
+"Report-Msgid-Bugs-To: https://oceanwp.org/support/\n"
+"POT-Creation-Date: 2017-10-28 06:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-10-28 06:33+0000\n"
+"Last-Translator: sabiertas <angel@solucionesabiertas.es>\n"
+"Language-Team: Spanish (Spain)\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _esc_attr__;esc_attr_x;esc_attr_e;esc_html__;"
+"esc_html_e;esc_html_x;__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+"Language: es-ES"
+
+#: inc/class-odi-helpers.php:66
+msgid ""
+"\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+msgstr ""
+
+#: inc/class-odi-helpers.php:171
+msgid "URL for %s%s%s file is not defined!"
+msgstr ""
+
+#: inc/class-odi-helpers.php:193
+msgid ""
+"An error occurred while fetching %s%s%s file from the server!%sReason: %s - "
+"%s."
+msgstr ""
+
+#: inc/class-odi-helpers.php:232 inc/class-odi-helpers.php:275
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: inc/class-odi-helpers.php:309
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: inc/class-odi-helpers.php:332
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: inc/class-odi-helpers.php:355
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: inc/class-odi-helpers.php:363
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: inc/class-odi-helpers.php:459
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: inc/class-odi-helpers.php:494
+msgid ""
+"Please upload XML file for content import. If you want to import widgets or "
+"customizer settings only, please use Widget Importer & Exporter or the "
+"Customizer Export/Import plugin."
+msgstr ""
+
+#: inc/class-odi-helpers.php:514
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: inc/class-odi-helpers.php:543
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: inc/class-odi-helpers.php:564
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = "
+"%4$s%1$sCustomizer file = %5$s"
+msgstr ""
+
+#: inc/class-odi-main.php:100
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: inc/class-odi-main.php:125
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: inc/class-odi-main.php:130
+msgid ""
+"Please click \"Import Demo Data\" button only once and wait, it can take a "
+"couple of minutes."
+msgstr ""
+
+#: inc/class-odi-main.php:148
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: inc/class-odi-main.php:156
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: inc/class-odi-main.php:161
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: inc/class-odi-main.php:166
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: inc/class-odi-main.php:176
+msgid "Choose which demo you want to import:"
+msgstr ""
+
+#: inc/class-odi-main.php:201
+msgid "Import preview:"
+msgstr ""
+
+#: inc/class-odi-main.php:205 inc/class-odi-main.php:258
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: inc/class-odi-main.php:314
+msgid "Manually uploaded files"
+msgstr ""
+
+#: inc/class-odi-main.php:331 inc/class-odi-main.php:342
+msgid "Downloaded files"
+msgstr ""
+
+#: inc/class-odi-main.php:338
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: inc/class-odi-main.php:348
+msgid "No import files specified!"
+msgstr ""
+
+#: inc/class-odi-main.php:395
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. If it "
+"did, you can deactivate the %3$sOcean Demo Import%4$s plugin, because it has "
+"done its job.%5$s"
+msgstr ""
+
+#: inc/class-odi-main.php:406
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: inc/class-odi-main.php:459
+msgid "Max execution time after content import = "
+msgstr ""
+
+#: inc/class-odi-main.php:538
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: inc/class-odi-main.php:588
+msgid "Completed AJAX call number: "
+msgstr ""
+
+#: inc/class-odi-widget-importer.php:43
+msgid "Widget import file could not be found."
+msgstr ""
+
+#: inc/class-odi-widget-importer.php:73
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/class-odi-widget-importer.php:113
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/class-odi-widget-importer.php:135
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/class-odi-widget-importer.php:233
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/class-odi-widget-importer.php:288
+msgid "No results for widget import!"
+msgstr ""
+
+#: ocean-demo-import.php:198
+msgid ""
+"The %2$sOcean Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:131
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:167
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:283
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:356
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:505
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:565
+msgid "Invalid author mapping"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:666
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:754
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:842
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:856
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:893
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1520
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1545
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1687
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1716
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1813
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1826
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1831
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1837
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1859
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1872
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1877
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1891
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1896
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1922
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1933
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1978
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1983
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:2005
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:2009
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:2023
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:2027
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:2044
+msgid "Could not update comment #%d with mapped data"
+msgstr "No se pudo actualizar el comentario #%d con los datos asignados"
+
+#: inc/class-odi-customizer-importer.php:35
+msgid "The customizer import file is missing! File path: %s"
+msgstr ""
+"¡Falta el archivo de importación para el personalizador! Ruta del archivo:% s"
+
+#: inc/class-odi-customizer-importer.php:55
+msgid ""
+"The customizer import file is not in a correct format. Please make sure to "
+"use the correct customizer import file."
+msgstr ""
+"El archivo de importación para el personalizador no tiene el formato "
+"correcto. Asegúrate de utilizar el archivo de importación para el "
+"personalizador correcto."
+
+#: inc/class-odi-customizer-importer.php:61
+msgid ""
+"The customizer import file is not suitable for current theme. You can only "
+"import customizer settings for the same theme or a child theme."
+msgstr ""
+"El archivo de importación para el personalizador no es adecuado para el tema "
+"actual. Solo se puede importar la configuración del personalizador para el "
+"mismo tema o un tema hijo."
+
+#: inc/class-odi-helpers.php:343 inc/class-odi-main.php:76
+#: inc/class-odi-main.php:93
+msgid "Ocean Demo Import"
+msgstr "Importar demos de OceanWP"
+
+#: inc/class-odi-helpers.php:344 inc/class-odi-main.php:77
+#: inc/class-odi-main.php:227
+msgid "Import Demo Data"
+msgstr "Importar datos de demo"
+
+#: inc/class-odi-helpers.php:425
+msgid "Ocean Demo Import - "
+msgstr "Importar demos de OceanWP-"
+
+#: inc/class-odi-helpers.php:496 inc/class-odi-helpers.php:518
+#: inc/class-odi-helpers.php:537 inc/class-odi-helpers.php:545
+msgid "Upload files"
+msgstr "Subir archivos"
+
+#: inc/class-odi-helpers.php:533
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "Los archivos para el personalizador no se han cargado. Error: %s"
+
+#: inc/class-odi-helpers.php:560
+msgid "Initial max execution time = %s"
+msgstr "Tiempo máximo de ejecución = %s"
+
+#: inc/class-odi-helpers.php:568 inc/class-odi-helpers.php:569
+msgid "not defined!"
+msgstr "¡Sin definir!"
+
+#: inc/class-odi-main.php:113
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+"Antes de empezar, asegurate de que los plugins necesarios están activados."
+
+#: inc/class-odi-main.php:119
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme."
+msgstr ""
+"La importación de demos (entradas, páginas, ajustes del tema, etc.) es la "
+"manera más fácil de configurar ti sitio."
+
+#: inc/class-odi-main.php:120
+msgid ""
+"It will allow you to quickly edit everything instead of creating content "
+"from scratch."
+msgstr ""
+"Esto te permite tener de forma rápida tu sitio a punto, en vez de comenzar "
+"de cero."
+
+#: inc/class-odi-main.php:128
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+"No se eliminarán ni modificarán entradas existentes, páginas, categorías, "
+"imágenes, tipos de publicaciones personalizadas ni ningún otro dato."
+
+#: inc/class-odi-main.php:129
+msgid "Posts, pages, images, widgets and menus will get imported."
+msgstr "Entradas, páginas, imagenes, widgets y menús serán importados"
+
+#: inc/class-odi-main.php:153
+msgid "Manual demo files upload"
+msgstr "Subir de forma manual los archivos de demo"
+
+#: inc/class-odi-main.php:161 inc/class-odi-main.php:166
+msgid "(*optional)"
+msgstr "(*opcional)"
+
+#: inc/class-odi-main.php:231
+msgid "Importing, please wait!"
+msgstr "¡Importando, espera por favor!"
+
+#: inc/class-odi-main.php:461
+msgid "Importing content"
+msgstr "Importando contenido"
+
+#: inc/class-odi-main.php:499 inc/class-odi-main.php:511
+msgid "Importing widgets"
+msgstr "Importando widgets"
+
+#: inc/class-odi-main.php:532 inc/class-odi-main.php:540
+msgid "Importing customizer settings"
+msgstr "Importando ajustes del personalizador"
+
+#: inc/class-odi-widget-importer.php:170
+msgid "Widget already exists"
+msgstr "El widget ya existe"
+
+#: inc/class-odi-widget-importer.php:229
+msgid "Imported"
+msgstr "Importado"
+
+#: inc/class-odi-widget-importer.php:239
+msgid "No Title"
+msgstr "Sin título"
+
+#: ocean-demo-import.php:136 ocean-demo-import.php:145
+msgid "Cheatin&#8217; huh?"
+msgstr "¿Haciendo trampas?"
+
+#: ocean-demo-import.php:211
+msgid "Ocean Extra requires that you use ocean as your parent theme."
+msgstr "Ocean Extra necesita que OceanWP sea el tema padre."
+
+#: ocean-demo-import.php:211
+msgid "Install Ocean Now"
+msgstr "Instalar OceanWP ahora"
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:764
+msgid "%s \"%s\" already exists."
+msgstr "%s \"%s\" ya existe."
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:888
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1711
+msgid "Imported \"%s\" (%s)"
+msgstr "Importado \"%s\" (%s)"
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1037
+msgid "Invalid file type"
+msgstr "Tipo de archivo no válido"
+
+#: vendor/oceanwp/wp-content-importer-v2/WXRImporter.php:1541
+msgid "Imported user \"%s\""
+msgstr "Usuario importado \"%s\""

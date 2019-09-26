@@ -1,0 +1,764 @@
+# Copyright (C) 2016 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://oceanwp.org/support/\n"
+"POT-Creation-Date: 2017-08-18 17:53+0200\n"
+"PO-Revision-Date: 2017-08-18 17:54+0200\n"
+"Last-Translator: FreePixel <contact@freepixel.net>\n"
+"Language-Team: OceanWP\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Basepath: ../../../../../../../Fichiers de Dossiers/CMS/WORDPRESS/• "
+"THEMES/• OceanWP/Extensions gratuites/ocean-demo-import\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _esc_attr__;esc_attr_x;esc_attr_e;esc_html__;"
+"esc_html_e;esc_html_x;__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: includes/importer.php\n"
+"X-Poedit-SearchPath-1: includes/install-demos.php\n"
+"X-Poedit-SearchPath-2: includes/class/class-helpers.php\n"
+"X-Poedit-SearchPath-3: includes/class/class-parsers.php\n"
+"X-Poedit-SearchPath-4: includes/class/class-settings-importer.php\n"
+"X-Poedit-SearchPath-5: includes/class/class-widget-importer.php\n"
+"X-Poedit-SearchPath-6: includes/class/class-wordpress-importer.php\n"
+"X-Poedit-SearchPath-7: ocean-demo-import.php\n"
+
+#: includes/class/class-parsers.php:42 includes/class/class-parsers.php:72
+#: includes/class/class-parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "Une erreur est survenue lors de la lecture du fichier WXR"
+
+#: includes/class/class-parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Les détails sont affichés ci-dessous. L'importateur va maintenant essayer "
+"avec un autre analyseur..."
+
+#: includes/class/class-parsers.php:84 includes/class/class-parsers.php:89
+#: includes/class/class-parsers.php:306 includes/class/class-parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Cela ne semble pas être un fichier WXR, numéro de version WXR manquant/"
+"invalide."
+
+#: includes/class/class-widget-importer.php:84
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+"La barre latérale n'existe pas dans le thème (déplacement des widgets sur "
+"inactif)"
+
+#: includes/class/class-widget-importer.php:106
+msgid "Site does not support widget"
+msgstr "Le site ne supporte pas le widget"
+
+#: includes/class/class-widget-importer.php:127
+msgid "Widget already exists"
+msgstr "Le Widget existe déjà"
+
+#: includes/class/class-widget-importer.php:185
+msgid "Imported"
+msgstr "Importé"
+
+#: includes/class/class-widget-importer.php:189
+msgid "Imported to Inactive"
+msgstr "Importé dans inactive"
+
+#: includes/class/class-widget-importer.php:195
+msgid "No Title"
+msgstr "Pas de titre"
+
+#: includes/class/class-wordpress-importer.php:132
+#: includes/class/class-wordpress-importer.php:141
+#: includes/class/class-wordpress-importer.php:192
+#: includes/class/class-wordpress-importer.php:196
+#: includes/class/class-wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr "Désolé, il y a eu une erreur."
+
+#: includes/class/class-wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr "Le fichier n&rsquo;existe pas, veuillez essayer de nouveau."
+
+#: includes/class/class-wordpress-importer.php:176
+msgid "All done."
+msgstr "Tous terminés."
+
+#: includes/class/class-wordpress-importer.php:176
+msgid "Have fun!"
+msgstr "Amusez-vous !"
+
+#: includes/class/class-wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"Rappelez-vous de mettre à jour les mots de passe et les rôles des "
+"utilisateurs importés."
+
+#: includes/class/class-wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Le fichier d'export n'a pas pu être trouvé à <code>%s</code> . Il est "
+"probable que cela ait été causé par un problème d'autorisations."
+
+#: includes/class/class-wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Ce fichier WXR (version %s) ne peut pas être pris en charge par cette "
+"version de l'importateur. Mettez à jour l'importateur."
+
+#: includes/class/class-wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Impossible d'importer l'auteur %s. Ses articles seront attribués à "
+"l'utilisateur actuel."
+
+#: includes/class/class-wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr "Assigner les auteurs"
+
+#: includes/class/class-wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Pour qu'il vous soit plus simple de modifier et d'enregistrer le contenu "
+"importé, vous souhaitez peut-être ré-attribuer l'auteur d'un item importé à "
+"un utilisateur de ce site. Par exemple, vous pourriez vouloir importer "
+"toutes les entrées comme des entrées  <code>admin</code>."
+
+#: includes/class/class-wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Si un nouvel utilisateur est créé par WordPress, un nouveau mot de passe "
+"sera généré au hasard et le nouveau rôle utilisateur&#8217;s sera défini en "
+"tant que %s. Il sera nécessaire de changer manuellement les détails du "
+"nouvel utilisateur&#8217;s."
+
+#: includes/class/class-wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr "Importer les pièces jointes"
+
+#: includes/class/class-wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr "Télécharge et importe les pièces jointes"
+
+#: includes/class/class-wordpress-importer.php:284
+msgid "Submit"
+msgstr "Envoyer"
+
+#: includes/class/class-wordpress-importer.php:297
+msgid "Import author:"
+msgstr "Importer l'auteur : "
+
+#: includes/class/class-wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr "ou créer un nouvel utilisateur avec le nom de connexion : "
+
+#: includes/class/class-wordpress-importer.php:311
+msgid "as a new user:"
+msgstr "en tant que nouvel utilisateur : "
+
+#: includes/class/class-wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr "attribuer les articles à un utilisateur existant : "
+
+#: includes/class/class-wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr "ou attribuer les articles à un utilisateur existant : "
+
+#: includes/class/class-wordpress-importer.php:322
+msgid "- Select -"
+msgstr "- Sélectionner -"
+
+#: includes/class/class-wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Impossible de créer un nouvel utilisateur pour %s. Ses articles seront "
+"attribués à l'utilisateur actuel."
+
+#: includes/class/class-wordpress-importer.php:424
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Impossible d'importer la catégorie d'article %s"
+
+#: includes/class/class-wordpress-importer.php:467
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Impossible d'importer l'étiquette d'article %s"
+
+#: includes/class/class-wordpress-importer.php:516
+#: includes/class/class-wordpress-importer.php:738
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Impossible d'importer %s %s"
+
+#: includes/class/class-wordpress-importer.php:605
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Impossible d'importer &#8220;%s&#8221; : type d'article invalide %s"
+
+#: includes/class/class-wordpress-importer.php:642
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; existe déjà."
+
+#: includes/class/class-wordpress-importer.php:704
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Impossible d'importer %s &#8220;%s&#8221;"
+
+#: includes/class/class-wordpress-importer.php:869
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Élément de menu ignoré en raison de l'identifiant de menu manquant"
+
+#: includes/class/class-wordpress-importer.php:876
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+"Élément de menu ignoré en raison d'un identifiant de menu invalide :  %s"
+
+#: includes/class/class-wordpress-importer.php:954
+msgid "Fetching attachments is not enabled"
+msgstr "La récupération des pièces jointes n'est pas activée"
+
+#: includes/class/class-wordpress-importer.php:967
+msgid "Invalid file type"
+msgstr "Type de fichier invalide"
+
+#: includes/class/class-wordpress-importer.php:1011
+msgid "Remote server did not respond"
+msgstr "Le serveur distant n'a pas répondu"
+
+#: includes/class/class-wordpress-importer.php:1017
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Le serveur distant a renvoyé une réponse d'erreur %1$d %2$s"
+
+#: includes/class/class-wordpress-importer.php:1024
+msgid "Remote file is incorrect size"
+msgstr "Le fichier distant est d'une taille incorrecte"
+
+#: includes/class/class-wordpress-importer.php:1029
+msgid "Zero size file downloaded"
+msgstr "Zéro données téléchargées du fichier"
+
+#: includes/class/class-wordpress-importer.php:1035
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Le fichier distant est trop gros, la limite est de %s"
+
+#: includes/class/class-wordpress-importer.php:1134
+msgid "Import WordPress"
+msgstr "WordPress importation"
+
+#: includes/class/class-wordpress-importer.php:1141
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Une nouvelle version de cet importateur est disponible. Veuillez mettre à "
+"jour la version %s pour assurer la compatibilité avec les nouveaux fichiers "
+"d'exportation."
+
+#: includes/class/class-wordpress-importer.php:1156
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Salut ! Télécharger votre fichier WordPress eXtended RSS (WXR) et we&#8217;"
+"ll pour importer les articles, pages, commentaires, champs personnalisés, "
+"catégories, et mots-clés vers ce site."
+
+#: includes/class/class-wordpress-importer.php:1157
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Choisir un fichier WXR (.xml) à télécharger, puis cliquer sur Envoyer et "
+"importer le fichier."
+
+#: includes/importer.php:519
+msgid ""
+"Can not retrieve sample data xml file. Github may be down at the momment "
+"please try again later. If you still have issues contact the theme developer "
+"for assistance."
+msgstr ""
+"Impossible de récupérer le fichier xml d'exemple de données. Github peut "
+"être quitté au moment de l'intégration. Réessayez plus tard. Si vous avez "
+"encore des problèmes, contactez le développeur du thème pour obtenir de "
+"l'aide."
+
+#: includes/importer.php:534
+msgid ""
+"The xml import file could not be accessed. Please try again or contact the "
+"theme developer."
+msgstr ""
+"Le fichier d'importation xml n'a pas pu être consulté. Réessayez ou "
+"contactez le développeur du thème."
+
+#: includes/importer.php:571
+msgid "Can not retrieve class-wp-importer.php"
+msgstr "Impossible de retrouver le fichier classe-wp-import.php"
+
+#: includes/importer.php:581
+msgid "Can not retrieve wordpress-importer.php"
+msgstr "Impossible de retrouver le fichier wordpress-importer.php"
+
+#: includes/importer.php:592
+msgid "Sample data file appears corrupt or can not be accessed."
+msgstr ""
+"Un exemple de fichier de données semble corrompu ou ne peut être consulté."
+
+#: includes/install-demos.php:29 includes/install-demos.php:30
+#: includes/install-demos.php:50
+msgid "Install Demos"
+msgstr "Installer des démos"
+
+#: includes/install-demos.php:54 includes/install-demos.php:66
+msgid ""
+"We&rsquo;re sorry but the demo data could not be imported. It is most likely "
+"due to low PHP configurations on your server. You need to import the demo "
+"manually, look the second method from this article of the documentation:"
+msgstr ""
+"Nous sommes désolés, mais les données de démo n'ont pas pu être importées. "
+"Il est probablement dû à la configuration PHP sur votre serveur. Vous devez "
+"importer la démo manuellement, regardez la deuxième méthode à partir de cet "
+"article de la documentation : "
+
+#: includes/install-demos.php:54 includes/install-demos.php:66
+msgid "Importing the sample data"
+msgstr "Importation des données de démo"
+
+#: includes/install-demos.php:60
+#, php-format
+msgid ""
+"Demo data successfully imported. Please check your page and make sure that "
+"everything has imported correctly. If it did, you can deactivate the "
+"%1$sOcean Demo Import%2$s plugin, because it has done its job."
+msgstr ""
+"Les données de démonstration ont été importées avec succès. Vérifiez votre "
+"page et assurez-vous que tout a bien été importé. Si c'est le cas, vous "
+"pouvez désactiver %1$sOcean Demo Import%2$s car il à terminé sa fonction."
+
+#: includes/install-demos.php:72
+#, php-format
+msgid ""
+"Before you begin, make sure all the required plugins are activated. %1$sSee "
+"this article%2$s."
+msgstr ""
+"Avant de commencer, assurez-vous que tous les extensions requises sont "
+"activées. %1$sVoir cet article%2$s."
+
+#: includes/install-demos.php:85
+#, php-format
+msgid ""
+"Importing demo data ( post, pages, images, customizer settings, ... ) is the "
+"easiest way to setup your theme. It will allow you to quickly edit "
+"everything instead of creating content from scratch. We recommend uploading "
+"sample data on a clean installation to prevent conflicts with your current "
+"content. You can use this plugin to reset your site if needed: %1$sWordpress "
+"Database Reset%2$s."
+msgstr ""
+"L'importation de données de démo (articles, pages, images, paramètres "
+"personnalisés, ...) est le moyen le plus simple de configurer votre thème. "
+"Cela vous permettra de modifier rapidement tout au lieu de créer du contenu "
+"à partir de rien. Nous vous recommandons de télécharger des exemples de "
+"données sur une installation propre pour éviter les conflits avec votre "
+"contenu actuel. Vous pouvez utiliser cette extension pour réinitialiser "
+"votre site si nécessaire : %1$sWordpress Database Reset%2$s."
+
+#: includes/install-demos.php:101
+msgid "All"
+msgstr "Tous"
+
+#: includes/install-demos.php:108
+msgid "Search demos..."
+msgstr "Recherche de démos..."
+
+#: includes/install-demos.php:138
+msgid "Install"
+msgstr "Installer"
+
+#: includes/install-demos.php:139
+msgid "Preview"
+msgstr "Aperçu"
+
+#: ocean-demo-import.php:134 ocean-demo-import.php:143
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors on triche ?"
+
+#: ocean-demo-import.php:197
+msgid "Ocean Demo Import requires that you use OceanWP as your parent theme."
+msgstr ""
+"Ocean Demo Import impose l’utilisation d’OceanWP comme thème principal."
+
+#: ocean-demo-import.php:197
+msgid "Install OceanWP Now"
+msgstr "installer OceanWP maintenant"
+
+#~ msgid "The customizer import file is missing! File path: %s"
+#~ msgstr ""
+#~ "Le fichier d'importation de personnalisation est manquant ! Chemin du "
+#~ "fichier : %s"
+
+#~ msgid ""
+#~ "The customizer import file is not in a correct format. Please make sure "
+#~ "to use the correct customizer import file."
+#~ msgstr ""
+#~ "Le fichier d'importation de personnalisation n'est pas dans un format "
+#~ "correct. Assurez-vous d'utiliser un fichier d'importation de "
+#~ "personnalisation approprié."
+
+#~ msgid ""
+#~ "The customizer import file is not suitable for current theme. You can "
+#~ "only import customizer settings for the same theme or a child theme."
+#~ msgstr ""
+#~ "Le fichier d'importation de personnalisation n'est pas adapté au thème "
+#~ "actuel. Vous ne pouvez importer que des paramètres personnalisés pour le "
+#~ "même thème ou un thème enfant."
+
+#~ msgid ""
+#~ "\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+#~ msgstr ""
+#~ "\"import_file_url\" ou \"local_import_file\" pour %s%s%s ne sont pas "
+#~ "définis !"
+
+#~ msgid "URL for %s%s%s file is not defined!"
+#~ msgstr "L’URL pour le fichier %s%s%s n’est pas définie !"
+
+#~ msgid ""
+#~ "An error occurred while fetching %s%s%s file from the server!%sReason: %s "
+#~ "- %s."
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de l'extraction du fichier %s%s%s depuis "
+#~ "le serveur ! Raison invoquée : %s - %s."
+
+#~ msgid ""
+#~ "An error occurred while writing file to your server! Tried to write a "
+#~ "file to: %s%s."
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de l'écriture d'un fichier sur votre "
+#~ "serveur! Essai d'écriture d'un fichier sur : %s%s."
+
+#~ msgid ""
+#~ "An error occurred while reading a file from your server! Tried reading "
+#~ "file from path: %s%s."
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de la lecture d'un fichier de votre "
+#~ "serveur ! Essai de lecture du fichier à partir du chemin d'accès : %s%s."
+
+#~ msgid ""
+#~ "This WordPress page does not have %sdirect%s write file access. This "
+#~ "plugin needs it in order to save the demo import xml file to the upload "
+#~ "directory of your site. You can change this setting with these "
+#~ "instructions: %s."
+#~ msgstr ""
+#~ "Cette page WordPress n'a pas d'accès %sdirect%s au fichier d'écriture. "
+#~ "Cette extension en a besoin pour enregistrer le fichier xml d'importation "
+#~ "de démonstration dans le répertoire de téléchargement de votre site. Vous "
+#~ "pouvez modifier ce paramètre avec ces instructions : %s."
+
+#~ msgid "Ocean Demo Import"
+#~ msgstr "Import démo Ocean"
+
+#~ msgid "Import Demo Data"
+#~ msgstr "Importer les données de démo"
+
+#~ msgid ""
+#~ "An error occurred while retrieving reading/writing permissions to your "
+#~ "server (could not retrieve WP filesystem credentials)!"
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de la récupération des autorisations de "
+#~ "lecture/écriture sur votre serveur (impossible de récupérer les "
+#~ "informations d'identification du système de fichiers WP) !"
+
+#~ msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+#~ msgstr ""
+#~ "Vos informations d’identification de connexion WordPress ne permettent "
+#~ "pas d’utiliser WP_Filesystem !"
+
+#~ msgid "Ocean Demo Import - "
+#~ msgstr "Import démo d'OceanWP - "
+
+#~ msgid ""
+#~ "%sYour user role isn't high enough. You don't have permission to import "
+#~ "demo data.%s"
+#~ msgstr ""
+#~ "%sVotre rôle d'utilisateur n'est pas suffisamment élevé. Vous n'avez pas "
+#~ "la permission d'importer des données de démonstration.%s"
+
+#~ msgid ""
+#~ "Please upload XML file for content import. If you want to import widgets "
+#~ "or customizer settings only, please use Widget Importer & Exporter or the "
+#~ "Customizer Export/Import plugin."
+#~ msgstr ""
+#~ "Veuillez télécharger un fichier XML pour l'importation de contenu. Si "
+#~ "vous souhaitez importer des widgets ou des paramètres de personnalisation "
+#~ "uniquement, utilisez le widget Importer & Exporter ou l'extension "
+#~ "d'exportation/importation de personnalisation."
+
+#~ msgid "Upload files"
+#~ msgstr "Téléversez les fichiers"
+
+#~ msgid "Widget file was not uploaded. Error: %s"
+#~ msgstr "Le fichier Widget n’a pas été téléchargé. Erreur : %s"
+
+#~ msgid "Customizer file was not uploaded. Error: %s"
+#~ msgstr "Le fichier de personnalisation n'a pas été téléchargé. Erreur : %s"
+
+#~ msgid "The import files were successfully uploaded!"
+#~ msgstr "Les fichiers d'importation ont été téléchargés avec succès !"
+
+#~ msgid "Initial max execution time = %s"
+#~ msgstr "Temps d'exécution maxi initial = %s"
+
+#~ msgid ""
+#~ "Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+#~ "%1$sCustomizer file = %5$s"
+#~ msgstr ""
+#~ "Informations sur les fichiers : %1$sURL du site = %2$s%1$sFichier de "
+#~ "données = %3$s%1$sFichier widget = %4$s%1$sFichier de personnalisation = "
+#~ "%5$s"
+
+#~ msgid "not defined!"
+#~ msgstr "non défini !"
+
+#~ msgid ""
+#~ "%sWarning: your server is using %sPHP safe mode%s. This means that you "
+#~ "might experience server timeout errors.%s"
+#~ msgstr ""
+#~ "%sAvertissement: votre serveur utilise %sPHP safe mode%s. Cela signifie "
+#~ "que vous risquez d'avoir des erreurs de timeout du serveur.%s"
+
+#~ msgid ""
+#~ "Importing demo data (post, pages, images, theme settings, ...) is the "
+#~ "easiest way to setup your theme."
+#~ msgstr ""
+#~ "L'importation de données de démo (articles, pages, images, paramètres de "
+#~ "thème, ...) est la manière la plus simple de configurer votre thème."
+
+#~ msgid ""
+#~ "It will allow you to quickly edit everything instead of creating content "
+#~ "from scratch."
+#~ msgstr ""
+#~ "Cela vous permettra de modifier rapidement tout au lieu de créer du "
+#~ "contenu à partir de rien."
+
+#~ msgid "When you import the data, the following things might happen:"
+#~ msgstr ""
+#~ "Lorsque vous importez les données, les choses suivantes peuvent se "
+#~ "produire :"
+
+#~ msgid ""
+#~ "No existing posts, pages, categories, images, custom post types or any "
+#~ "other data will be deleted or modified."
+#~ msgstr ""
+#~ "Aucun article, page, catégorie, image, type de publication personnalisée "
+#~ "ou toute autre donnée existante ne sera supprimé ou modifié."
+
+#~ msgid "Posts, pages, images, widgets and menus will get imported."
+#~ msgstr "Les articles, pages, images, widgets et menus seront importés."
+
+#~ msgid ""
+#~ "Please click \"Import Demo Data\" button only once and wait, it can take "
+#~ "a couple of minutes."
+#~ msgstr ""
+#~ "Cliquez sur le bouton \"Importer les données de démo\" une seule fois et "
+#~ "attendez, cela peut prendre quelques minutes."
+
+#~ msgid ""
+#~ "There are no predefined import files available in this theme. Please "
+#~ "upload the import files manually!"
+#~ msgstr ""
+#~ "Il n'y a pas de fichiers d'importation prédéfinis disponibles sur ce "
+#~ "thème. Veuillez télécharger les fichiers importés manuellement."
+
+#~ msgid "Manual demo files upload"
+#~ msgstr "Téléchargement manuel des fichiers de démo"
+
+#~ msgid "Choose a XML file for content import:"
+#~ msgstr "Choisissez un fichier XML pour l'importation de contenu : "
+
+#~ msgid "Choose a WIE or JSON file for widget import:"
+#~ msgstr "Choisissez un fichier WIE ou JSON pour l'importation d'un widget : "
+
+#~ msgid "(*optional)"
+#~ msgstr "(*optionnel)"
+
+#~ msgid "Choose a DAT file for customizer import:"
+#~ msgstr "Choisissez un fichier DAT pour l'importation de personnalisation : "
+
+#~ msgid "Choose which demo you want to import:"
+#~ msgstr "Choisissez la démo que vous souhaitez importer : "
+
+#~ msgid "No preview image defined for this import."
+#~ msgstr "Aucune image d'aperçu définie pour cette importation."
+
+#~ msgid "Manually uploaded files"
+#~ msgstr "Fichiers téléchargés manuellement"
+
+#~ msgid "Downloaded files"
+#~ msgstr "Fichiers téléchargés"
+
+#~ msgid "The import files for: %s were successfully downloaded!"
+#~ msgstr ""
+#~ "Les fichiers d'importation pour : %s ont été téléchargés avec succès !"
+
+#~ msgid "No import files specified!"
+#~ msgstr "Aucun fichier d'import spécifié !"
+
+#~ msgid ""
+#~ "%1$sThe demo import has finished, but there were some import errors."
+#~ "%2$sMore details about the errors can be found in this %3$s%5$slog file"
+#~ "%6$s%4$s%7$s"
+#~ msgstr ""
+#~ "%1$sL'importation de démo a terminé, mais il y a eu des erreurs "
+#~ "d'importation.%2$sVous trouverez plus de détails sur les erreurs dans ce "
+#~ "%3$s%5$sfichier de logs%6$s%4$s%7$s"
+
+#~ msgid "Max execution time after content import = "
+#~ msgstr "Temps d'exécution maximum après importation du contenu = "
+
+#~ msgid "Importing customizer settings"
+#~ msgstr "Importation de paramètres de personnalisation"
+
+#~ msgid "Customizer settings import finished!"
+#~ msgstr "L'importation des paramètres de personnalisation est terminée !"
+
+#~ msgid "Completed AJAX call number: "
+#~ msgstr "Numéro d'appel AJAX complété : "
+
+#~ msgid "Widget import file could not be found."
+#~ msgstr "Le fichier Widget d’importation n’a pu être trouvé."
+
+#~ msgid "Widget import data could not be read. Please try a different file."
+#~ msgstr ""
+#~ "Impossible de lire les données d'importation du widget. Veuillez essayer "
+#~ "un autre fichier."
+
+#~ msgid "No results for widget import!"
+#~ msgstr "Aucun résultat pour l'importation d'un widget !"
+
+#~ msgid ""
+#~ "The %2$sOcean Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+#~ "properly. Please contact your hosting company and ask them to update the "
+#~ "PHP version of your site to at least PHP 5.3.2.%4$s Your current version "
+#~ "of PHP: %2$s%1$s%3$s"
+#~ msgstr ""
+#~ "L'extension %2$sOcean Demo Import%3$s nécessite %2$sPHP 5.3.2+%3$s pour "
+#~ "fonctionner correctement. Veuillez contacter votre hébergeur et lui "
+#~ "demander de mettre à jour la version PHP de votre site à au moins PHP "
+#~ "5.3.2.%4$s Votre version actuelle de PHP est : %2$s%1$s%3$s"
+
+#~ msgid "Could not open the file for parsing"
+#~ msgstr "Impossible d'ouvrir le fichier pour l'analyse"
+
+#~ msgid "Invalid author mapping"
+#~ msgstr "Mappage d'auteur invalide"
+
+#~ msgid "Cannot import auto-draft posts"
+#~ msgstr "Impossible d'importer des articles automatiques"
+
+#~ msgid "Failed to import \"%s\" (%s)"
+#~ msgstr "Impossible d'importer \"%s\" (%s)"
+
+#~ msgid "Imported \"%s\" (%s)"
+#~ msgstr "\"%s\" (%s) importé"
+
+#~ msgid "Post %d remapped to %d"
+#~ msgstr "Article %d réassigné à %d"
+
+#~ msgid "Imported user \"%s\""
+#~ msgstr "Utilisateur \"%s\" importé"
+
+#~ msgid "User %d remapped to %d"
+#~ msgstr "Utilisateur %d réassigné à %d"
+
+#~ msgid "Term %d remapped to %d"
+#~ msgstr "Terme %d réassigné à %d"
+
+#~ msgid "Running post-processing for post %d"
+#~ msgstr "Exécution du post-traitement pour la publication %d"
+
+#~ msgid "Could not find the post parent for \"%s\" (post #%d)"
+#~ msgstr "Impossible de trouver l'article parent pour \"%s\" (article #%d)"
+
+#~ msgid "Post %d was imported with parent %d, but could not be found"
+#~ msgstr ""
+#~ "L'article %d a été importé avec le parent %d, mais n'a pas pu être trouvé"
+
+#~ msgid "Could not find the author for \"%s\" (post #%d)"
+#~ msgstr "Impossible de trouver l'auteur de \"%s\" (article #%d)"
+
+#~ msgid "Post %d was imported with author \"%s\", but could not be found"
+#~ msgstr ""
+#~ "L'article %d a été importé avec l'auteur \"%s\", mais n'a pas pu être "
+#~ "trouvé"
+
+#~ msgid "Post %d was marked for post-processing, but none was required."
+#~ msgstr ""
+#~ "L'article %d a été marqué pour le post-traitement, mais aucun n'a été "
+#~ "requis."
+
+#~ msgid "Could not update \"%s\" (post #%d) with mapped data"
+#~ msgstr ""
+#~ "Impossible de mettre à jour \"%s\" (article #%d) avec les données "
+#~ "réassignées"
+
+#~ msgid "Could not find the menu object for \"%s\" (post #%d)"
+#~ msgstr "Impossible de trouver l'objet de menu pour \"%s\" (article #%d)"
+
+#~ msgid ""
+#~ "Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+#~ "found"
+#~ msgstr ""
+#~ "L'article %d a été importé avec des objets \"%d\" du type \"%s\", mais "
+#~ "n'a pas pu être trouvé"
+
+#~ msgid "Could not find the comment parent for comment #%d"
+#~ msgstr "Impossible de trouver le commentaire parent pour le commentaire #%d"
+
+#~ msgid "Comment %d was imported with parent %d, but could not be found"
+#~ msgstr ""
+#~ "Le commentaire %d a été importé avec le parent %d, mais n'a pas pu être "
+#~ "trouvé"
+
+#~ msgid "Could not find the author for comment #%d"
+#~ msgstr "Impossible de trouver l'auteur pour le commentaire #%d"
+
+#~ msgid "Comment %d was imported with author %d, but could not be found"
+#~ msgstr ""
+#~ "Le commentaire %d a été importé avec l'auteur %d, mais n'a pas pu être "
+#~ "trouvé"
+
+#~ msgid "Could not update comment #%d with mapped data"
+#~ msgstr ""
+#~ "Impossible de mettre à jour le commentaire #%d avec les données "
+#~ "réassignées"
